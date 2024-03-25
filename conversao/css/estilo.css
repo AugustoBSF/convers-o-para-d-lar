@@ -1,0 +1,67 @@
+body{
+    height: 100vh;
+    background:linear-gradient(150deg,orange,yellow,blue) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central{
+width: 400px;
+height: 150px;
+background:  rgba(255, 255, 255, 0.259);
+border-radius: 20px;
+box-shadow: 3px 3px 10px black;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+
+}
+.central input{
+width: 300px;
+height: 25px;
+background: gray  ;
+border-radius: 23px;
+color: white;
+font-weight: bold;
+outline: none;
+border:  none;
+}
+
+
+.central input:focus{
+/* focus: mudar qnd clicar para digitar!  */
+    background: black;
+
+}
+
+
+
+.central #calcular {
+
+font-weight: bold;
+outline: none;
+border:  none;
+border-radius: 8px;
+background: darkcyan;
+color: white;
+border: none;
+outline: none;
+padding: 10px;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.central #calcular:hover {
+/* hover para ter alterações quando o mouse passar por cima!*/
+background: darkblue ;
+border-radius: 15px;
+
+}
+
+.central #resultado{
+    color: blue;
+    font-size: 20px;
+    font-weight: bolder;
+}
